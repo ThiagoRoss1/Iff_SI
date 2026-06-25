@@ -1,2 +1,16 @@
+# Ignore everything by default
+*
+
+# Except files with an extension (keeps .c, .h, .md, etc)
+!*.*
+
+# Except directories (so git can still look inside them)
+!*/
+
+# Specific folders to ignore (must come AFTER the rules above —
+# the git rule is "last match wins", então listar antes não funcionaria)
 .vscode
 /TabelaVerdade
+
+# Ignore Windows .exe binaries even though they have an extension
+*.exe
