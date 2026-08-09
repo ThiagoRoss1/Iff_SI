@@ -24,4 +24,4 @@ int main(void) {
     printf("Irão: %d,%d,%d\n", carro1, carro2, carro3);
 
     return 0;
-}
+} 
