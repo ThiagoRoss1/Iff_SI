@@ -6,9 +6,9 @@ int main(void) {
     printf("Digite 3 números inteiros: ");
     scanf("%d %d %d", &n1, &n2, &n3);
 
-    if (n1 > n2 && n1 > n3) {
+    if (n1 >= n2 && n1 >= n3) {
         maior = n1;
-    } else if (n2 > n1 && n2 > n3) {
+    } else if (n2 >= n1 && n2 >= n3) {
         maior = n2;
     } else {
         maior = n3;
