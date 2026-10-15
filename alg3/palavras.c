@@ -1,5 +1,5 @@
 // 7. Criar um vetor de caracteres de 15 posições e preencher com as letras de uma palavra (uma letra em cada posição). 
-//  Pedir o usuário para digitar * ao terminar de digitar a palavra. Exibir o vetor até o *.
+// Pedir o usuário para digitar * ao terminar de digitar a palavra. Exibir o vetor até o *. - Sem usar break.
 
 #include <stdio.h>
 
