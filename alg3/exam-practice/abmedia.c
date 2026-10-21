@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 int main (void) {
-    int numeros[8], soma = 0;
+    int numeros[8];
+    float soma = 0;
 
     printf("Digite 8 números: ");
 
@@ -17,7 +18,7 @@ int main (void) {
 
     for (int j = 0; j < 8; j++) {
         
-        if (numeros[j] <= media) {
+        if (numeros[j] < media) {
             printf("%d ", numeros[j]);
         }
     }
