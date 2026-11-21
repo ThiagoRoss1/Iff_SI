@@ -11,6 +11,7 @@
 # the git rule is "last match wins", então listar antes não funcionaria)
 .vscode
 /TabelaVerdade
+/alg3/combreak
 
 # Ignore Windows .exe binaries even though they have an extension
 *.exe
