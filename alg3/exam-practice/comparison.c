@@ -37,6 +37,13 @@ int main (void) {
         
     }
 
+    // Inverse would be like this:
+    // for (int j = 8 - 1; j >= 0; j--) {
+    //     if (vetor[j] > media) {
+    //         printf("%d ", vetor[j]);
+    //     }
+    // }
+
     printf("\nQuantidade de valores iguais a media: %d", iguais);
     printf("\nQuantidade de negativos: %d", negativos);
 
